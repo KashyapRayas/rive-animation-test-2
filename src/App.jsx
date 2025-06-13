@@ -6,7 +6,7 @@ import ThumbDisliked from './thumb_dislike.jsx'
 function App() {
   return (
     <>
-        <div style={{display: "flex", gap: "30px", padding: "20px", alignItems: "flex-end"}}>
+        <div style={{display: "flex", gap: "30px", padding: "20px", alignItems: "flex-end", width: "100%", flexWrap: "wrap"}}>
             <div
                 className="Generating"
                 style={{display: "flex", flexDirection:"column", alignItems: "center", width: "max-content", gap: "8px"}}>
