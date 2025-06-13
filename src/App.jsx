@@ -1,5 +1,7 @@
 import './App.css'
 import Simple from './rive_component.jsx'
+import ThumbLiked from './thumb_like.jsx'
+import ThumbDisliked from './thumb_dislike.jsx'
 
 function App() {
   return (
@@ -30,6 +32,17 @@ function App() {
                         <Simple filename={"generating.riv"}/>
                     </div>
                     <p style={{color: "#f9f9f9", padding: "0px", margin: "0px", fontSize: "14px"}}>3 min left</p>
+                </div>
+            </div>
+            <div className="Wrapper" style={{display: "flex", flexDirection: "column", gap: "8px"}}>
+                <p style={{color: "#606479", padding: "0px", margin: "0px", fontSize: "13px"}}>Click me!</p>
+                <div style={{display: "flex", alignItems: "center", width: "max-content", gap: "8px"}} >
+                    <div style={{width: "20px", height: "20px", overflow: "none"}}>
+                            <ThumbLiked/>
+                    </div>
+                    <div style={{width: "20px", height: "20px", overflow: "none", rotate: "180deg"}}>
+                            <ThumbDisliked/>
+                    </div>
                 </div>
             </div>
         </div>
