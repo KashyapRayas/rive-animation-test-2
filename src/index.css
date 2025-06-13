@@ -39,3 +39,21 @@ body {
     cursor: pointer;
     box-shadow: inset 0px 0px 0px 1.4px #6C65D9;
 }
+
+.Unlike {
+    rotate: 180deg;
+}
+
+.Wrapper-feedback {
+    width: 28px;
+    height: 28px;
+    overflow: none;
+    padding: 4px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    transition: background-color 0.15s ease-in-out;
+}
+
+.Wrapper-feedback:hover {
+    background-color: rgba(249, 249, 249, 0.06)
+}
